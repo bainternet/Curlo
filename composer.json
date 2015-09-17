@@ -1,0 +1,18 @@
+{
+    "name": "bainternet/Curlo",
+    "description": "Simple curl wrapper for PHP based on the WordPress HTTP curl class",
+    "keywords": ["curl", "request", "http"],
+    "homepage": "https://github.com/bainternet/Curlo",
+    "type": "library",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Ohad Raz",
+            "homepage": "https://en.bainternet.info/",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/bainternet/Curlo"
+    }
+}
