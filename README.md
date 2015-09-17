@@ -1,2 +1,2 @@
 # Curlo
-simple curl wrapper for PHP based on the WordPress HTTP curl class
+Simple Curl wrapper for PHP based on the WordPress HTTP curl class.
