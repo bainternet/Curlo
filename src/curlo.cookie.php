@@ -5,11 +5,42 @@ namespace Curlo;
 * Curlo Cookie class
 */
 class Curlo_Cookie{
+	/**
+	 * $name 
+	 * cookie name
+	 * @var string
+	 */
 	public $name;
+	/**
+	 * $value 
+	 * cookie value
+	 * @var string
+	 */
 	public $value;
+	/**
+	 * $expires 
+	 * cookie expiration date
+	 * @var string
+	 */
 	public $expires;
+	/**
+	 * $path 
+	 * cookie path
+	 * @var string
+	 */
 	public $path;
+	/**
+	 * $domain
+	 * cookie domain 
+	 * @var string
+	 */
 	public $domain;
+	/**
+	 * __construct 
+	 * class constructor
+	 * @param string $data          cookie datat to be pharsed
+	 * @param string $requested_url url of the requested cookie
+	 */
 	function __construct( $data, $requested_url = '' ){
 		if ( $requested_url ){
 			$arrURL = @parse_url( $requested_url );
@@ -69,6 +100,7 @@ class Curlo_Cookie{
 	}
 
 	/**
+	 * getHeaderValue
 	 * Convert cookie name and value back to header string.
 	 * @return string Header encoded cookie name and value.
 	 */
@@ -78,6 +110,7 @@ class Curlo_Cookie{
 	}
  
 	/**
+	 * getFullHeader 
 	 * Retrieve cookie header for usage in the rest of the API.
 	 * @return string
 	 */
