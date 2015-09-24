@@ -1,5 +1,5 @@
 {
-    "name": "bainternet/Curlo",
+    "name": "bainternet/curlo",
     "description": "Simple curl wrapper for PHP based on the WordPress HTTP curl class",
     "keywords": ["curl", "request", "http"],
     "homepage": "https://github.com/bainternet/Curlo",

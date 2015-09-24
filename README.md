@@ -25,7 +25,7 @@ Simple, Include the class file in your application bootstrap (setup/load/configu
 
 ```PHP
 //include the class
-include_once('path/to/curlo.php');
+include_once('path/to/src/curlo.php');
 
 //instantiate a new curlo
 $request  = new Curlo\Curlo();
